@@ -606,6 +606,9 @@ footer{
 		background-repeat: no-repeat;
 
 	}
+	section .carousel{
+		display: block;
+	}
 	.slick-dots {
 		visibility: hidden;
 	}
