@@ -609,15 +609,14 @@ footer{
 		background-repeat: no-repeat;
 
 	}
+	.slick-dots {
+		visibility: hidden;
+	}
 	#back_home_mobile img{
 		width: 9vw;
 		float: left;
 		opacity: 0.5;
 	}
-	.slick-dots {
-		visibility: hidden;
-	}
-	
 	.result_button{
 		display: none;
 	}
