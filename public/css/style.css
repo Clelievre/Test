@@ -609,7 +609,7 @@ footer{
 		visibility: hidden;
 	}
 	#back_home_mobile img{
-		width: 9vw
+		width: 9vw;
 		float: left;
 		opacity: 0.5;
 	}
