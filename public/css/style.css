@@ -626,6 +626,9 @@ footer{
 	.aside_banner{
 		display: none;
 	}
+	.carousel .slick-list, .carousel .slick-track{
+	height: 20vh;
+	}
 	
 	.carousel_prev img, .carousel_next img{
 		display: none;
