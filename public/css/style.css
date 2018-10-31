@@ -620,6 +620,7 @@ footer{
 	}
 	#wrapper{
 		background-color: rgba(0,0,0,0);
+		float: left;
 		width: 1px;
 	}
 	.aside_banner{
