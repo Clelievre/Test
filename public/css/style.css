@@ -613,7 +613,7 @@ footer{
 	.result_button{
 		display: none;
 	}
-	.aside_banner #wrapper{
+	.aside_banner, #wrapper{
 		background-color: rgba(0,0,0,0);
 		width: 0px;
 		
