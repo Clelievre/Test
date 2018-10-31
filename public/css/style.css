@@ -612,6 +612,7 @@ footer{
 	}
 	#back_home img{
 		width: 7vw;
+		float: left;
 		opacity: 0.5;
 	}
 	.result_button{
