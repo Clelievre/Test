@@ -614,12 +614,7 @@ footer{
 	.result_button{
 		display: none;
 	}
-	#wrapper{
-		background-color: rgba(0,0,0,0);
-		float: left;
-		width: 1px;
-		
-	}
+	
 	.aside_banner{
 		display: none;
 	}
