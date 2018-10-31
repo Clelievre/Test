@@ -22,7 +22,7 @@ body{
 	overflow-x: hidden;
 }
 #page{
-	display: flex;
+	height: 100%;
 }
 #facebook iframe{
 	flex:2;
@@ -247,13 +247,9 @@ nav li:hover .sub_menu{
 /*=================================================
 					SLIDER
 =================================================*/
-.carousel{
 
-	background-color: #aee8fe;
-	
-}
 section .carousel{
-	background-color: #aee8fe;
+	background-color: #aee8fe
 }
 .carousel_slide{
 	background-size: contain;
@@ -631,13 +627,10 @@ footer{
 	.carousel .slick-list, .carousel .slick-track{
 	height: 20vh;
 	}
-	
 	.carousel_prev img, .carousel_next img{
 		display: none;
 	}
-	#back_home{
-		visibility: visible;
-	}
+	
 	section .carousel{
 		height: 20vh;
 	}
