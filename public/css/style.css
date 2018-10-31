@@ -615,7 +615,7 @@ footer{
 	}
 	.aside_banner, #wrapper{
 		background-color: rgba(0,0,0,0);
-		width: 0px;
+		width: 1px;
 		
 	}
 	.carousel_prev img, .carousel_next img{
