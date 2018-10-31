@@ -83,7 +83,7 @@ header{
 }
 
 .fb_icon img:hover,.twitter_icon img:hover{
-	opacity: 0.2;
+	opacity: 0.8;
 	background-color: #aee8fe;
 }
 
