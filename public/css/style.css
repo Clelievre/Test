@@ -610,8 +610,7 @@ footer{
 	}
 	#back_home_mobile img{
 		visibility: visible;
-		width: 15vw;
-		float: left;
+		width: 9vw;
 		opacity: 0.5;
 	}
 	.result_button{
