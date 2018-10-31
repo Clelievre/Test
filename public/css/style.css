@@ -621,7 +621,8 @@ footer{
 		display: none;
 	}
 	.aside_banner, #wrapper{
-		display: none;
+		background-color: #FFFF;
+		flex: 1;
 	}
 	section .carousel{
 		display: none;
