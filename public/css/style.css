@@ -628,7 +628,7 @@ footer{
 	#back_home{
 		visibility: visible;
 	}
-	section .carousel{
+	section{
 		height: 20vh;
 	}
 	#footer_left{
@@ -648,7 +648,7 @@ footer{
 		padding-bottom: 5vh;
 		padding-top: 0;
 	}
-    
+
 	.partner img{
 		flex:1;
 		margin: 2vw;
