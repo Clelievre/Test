@@ -18,8 +18,8 @@ body{
 	margin: 0;
 	height: 100%;
 	width: 100%;
-	overflow-x: hidden;
 	overflow-y: auto;
+	overflow-x: hidden;
 }
 #page{
 	display: flex;
@@ -31,6 +31,7 @@ body{
 .aside_banner{
 	flex:0.5;
 	background-color: #aee8fe; 
+	margin: 0;
 	
 	
 }
@@ -259,7 +260,7 @@ section .carousel{
 
 }
 .carousel .slick-list, .carousel .slick-track{
-	height: 30vh;
+	height: 10vh;
 }
 .carousel_photo01{
 	background-image: url("../images/slider/photo01.jpg");
@@ -381,7 +382,7 @@ footer{
 	box-shadow: 1px 1px 2px 1px #FFFF;
 }
 .partner a img:hover{
-	opacity: 0.2;
+	opacity: 0.8;
 }
 #description, #connection p a, #legal p a{
 
@@ -415,6 +416,7 @@ footer{
 =================================================*/
 
 @media screen and (max-width: 480px) {
+	
 	/*hamburger menu*/
 	#nav_mobile{
 		visibility: visible;
@@ -429,7 +431,7 @@ footer{
 		transition: color 0.3s ease;
 	}
 
-	#menu a:hover
+	a:hover
 	{
 		color: red;
 	}
@@ -438,7 +440,7 @@ footer{
 	{
 		display: block;
 		position: relative;
-		top: 1px;
+		top: 10px;
 		left: 50px;
 		z-index: 2;
 		-webkit-user-select: none;
@@ -530,12 +532,11 @@ footer{
 	#menu
 	{
 		position: absolute;
-		width: 300px;
-		margin: -10px 0 0 -150px;
+		width: 500px;
+		margin: -50px 0 0 -150px;
 		padding: 0px;
-		
-
-		background: #ededed;
+		padding-top: 50px;
+		background:#ededed;
 		list-style-type: none;
 		-webkit-font-smoothing: antialiased;
 		/* to stop flickering of text in safari */
@@ -548,12 +549,10 @@ footer{
 
 	#menu li a
 	{
-		padding: 0;
-		margin: 0;
-		color:rgba(0,0,0,1);
-		font-size: 1px;
+		padding: 2px 0;
+		color: rgba(0,0,0,1);
+		font-size: 1em;
 	}
-
 
 	/*
 	* And let's slide it in from the left
@@ -600,10 +599,13 @@ footer{
 	}
 
 	header{
+		margin: 0;
+		padding: 0;
 		height: 33vh;
 		background-size: cover;
-		background-position: top;
+		background-position: bottom;
 		background-repeat: no-repeat;
+
 	}
 	.slick-dots {
 		visibility: hidden;
@@ -615,9 +617,9 @@ footer{
 	.result_button{
 		display: none;
 	}
-	#wrapper {
+	#wrapper{
 		background-color: rgba(0,0,0,0);
-		width: 1px;
+		width: 0px;
 	}
 	.aside_banner{
 		display: none;
@@ -628,8 +630,8 @@ footer{
 	#back_home{
 		visibility: visible;
 	}
-	section{
-		height: 5vh;
+	section .carousel{
+		height: 20vh;
 	}
 	#footer_left{
 		flex: 1;
