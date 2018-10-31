@@ -260,7 +260,7 @@ section .carousel{
 
 }
 .carousel .slick-list, .carousel .slick-track{
-	height: 30vh;
+	height: 10vh;
 }
 .carousel_photo01{
 	background-image: url("../images/slider/photo01.jpg");
