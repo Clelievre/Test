@@ -622,7 +622,7 @@ footer{
 		width: 0px;
 	}
 	.aside_banner{
-		width: 1px;
+		width: 0px;
 	}
 	.carousel_prev img, .carousel_next img{
 		display: none;
