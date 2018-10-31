@@ -598,7 +598,7 @@ footer{
 
 	header{
 		height: 33vh;
-		background-size: contain;
+		background-size: cover;
 		background-position: top;
 		background-repeat: no-repeat;
 
