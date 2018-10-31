@@ -617,13 +617,11 @@ footer{
 	.result_button{
 		display: none;
 	}
-	#wrapper{
+	.aside_banner #wrapper{
 		background-color: rgba(0,0,0,0);
 		width: 0px;
 	}
-	.aside_banner{
-		width: 0px;
-	}
+	
 	.carousel_prev img, .carousel_next img{
 		display: none;
 	}
