@@ -619,8 +619,7 @@ footer{
 		display: none;
 	}
 	.aside_banner, #wrapper{
-		background-color: #FFFF;
-		flex: 1;
+		display: none;
 	}
 	section .carousel{
 		display: none;
