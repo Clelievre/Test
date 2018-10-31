@@ -536,8 +536,7 @@ footer{
 		margin: -50px 0 0 -150px;
 		padding: 0px;
 		padding-top: 50px;
-
-		/*background:#ededed;
+		background:#ededed;
 		list-style-type: ;
 		-webkit-font-smoothing: antialiased;
 		/* to stop flickering of text in safari */
@@ -552,7 +551,7 @@ footer{
 	{
 		padding: 2px 0;
 		color: rgba(0,0,0,1);
-		font-size: 1px;
+		font-size: 1em;
 	}
 
 	/*
