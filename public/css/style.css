@@ -629,7 +629,7 @@ footer{
 		visibility: visible;
 	}
 	section{
-		height: 20vh;
+		height: 5vh;
 	}
 	#footer_left{
 		flex: 1;
