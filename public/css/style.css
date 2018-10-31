@@ -35,7 +35,9 @@ body{
 	
 	
 }
-
+#back_home_mobile{
+	visibility: hidden;
+}
 /*==============================================
 					HEADER
 ===============================================*/
@@ -606,7 +608,7 @@ footer{
 	.slick-dots {
 		visibility: hidden;
 	}
-	#back_home img{
+	#back_home_mobile img{
 		width: 7vw;
 		float: left;
 		opacity: 0.5;
@@ -628,9 +630,7 @@ footer{
 	.carousel_prev img, .carousel_next img{
 		display: none;
 	}
-	#back_home{
-		visibility: visible;
-	}
+	
 	section .carousel{
 		height: 20vh;
 	}
