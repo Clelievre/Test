@@ -415,10 +415,6 @@ footer{
 
 @media screen and (max-width: 480px) {
 	
-	header{
-		margin: 0;
-		padding: 0;
-	}
 	/*hamburger menu*/
 	#nav_mobile{
 		visibility: visible;
@@ -602,6 +598,8 @@ footer{
 	}
 
 	header{
+		margin: 0;
+		padding: 0;
 		height: 33vh;
 		background-size: contain;
 		background-position: top;
