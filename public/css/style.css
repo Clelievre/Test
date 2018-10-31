@@ -572,7 +572,9 @@ footer{
     .fb_icon img ,.twitter_icon img{
 		width: 6vw;
 	}
-	
+	#facebook{
+		padding-right: 100px;
+	}
     
 	#logo_menu a img:hover{
     	opacity: 0.5;
