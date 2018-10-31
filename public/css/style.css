@@ -25,6 +25,8 @@ body{
 	height: 100%;
 }
 #facebook iframe{
+	margin: 0;
+	padding: 0;
 	flex:2;
 	
 }
