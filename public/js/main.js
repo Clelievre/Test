@@ -12,15 +12,15 @@ $(document).ready(function(){
     	`
   		});	
   		$( window ).scroll(function() {
-    	   	$( "#wrapper" ).css("position", "relative");
-       		$( "#wrapper" ).css("top", 0);
-       		$( "#wrapper" ).css("left", 0);
-       		$( "#wrapper" ).css("margin-top", "90vh");
-   		if($( window ).scrollTop() > $( "#wrapper" ).position().top) {
-   			$( "#wrapper" ).css("position", "absolute");
-   			$( "#wrapper" ).css("margin-left", "50px");
-		  	$( "#wrapper" ).css("top", $( window ).scrollTop());
-	   	}
+    	   $( "#back_home" ).css("position", "relative");
+          $( "#back_home" ).css("top", 0);
+          $( "#back_home" ).css("left", 0);
+          $( "#back_home" ).css("margin-top", "90vh");
+      if($( window ).scrollTop() > $( "#back_home" ).position().top) {
+        $( "#back_home" ).css("position", "absolute");
+        $( "#back_home" ).css("margin-left", "50px");
+        $( "#back_home" ).css("top", $( window ).scrollTop());
+      }
     		$( ".result_button" ).css("position", "relative");
        		$( ".result_button" ).css("top", 0);
        		$( ".result_button" ).css("margin-top", "90vh");
