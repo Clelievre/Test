@@ -248,6 +248,7 @@ nav li:hover .sub_menu{
 
 section .carousel{
 	background-color: #aee8fe;
+	height: 10vh;
 }
 .carousel_slide{
 	background-size: contain;
