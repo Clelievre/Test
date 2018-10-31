@@ -30,15 +30,5 @@ $(document).ready(function(){
    			$( ".result_button" ).css("margin-right", "50px")
 		  	$( ".result_button" ).css("top", $( window ).scrollTop());
 	   	}
-    	   	$( "#top_page" ).css("position", "relative");
-       		$( "#top_page" ).css("top", 0);
-       		$( "#top_page" ).css("margin-top", 0);
-       		$( "#top_page").css("margin-right", "0")
-       		$( "#top_page" ).css("left", 0);
-       		$( "#top_page" ).css("right", 0);
-   		if($( window ).scrollTop() > $( "#top_page" ).position().top) {
-   			$( "#top_page" ).css("position", "absolute");
-		  	$( "#top_page" ).css("top", $( window ).scrollTop());
-	   	}
 	});
 });
