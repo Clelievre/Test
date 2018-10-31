@@ -22,7 +22,7 @@ body{
 	overflow-x: hidden;
 }
 #page{
-	display: flex;
+	height: 100%;
 }
 #facebook iframe{
 	flex:2;
