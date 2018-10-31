@@ -624,22 +624,13 @@ footer{
 	.aside_banner{
 		display: none;
 	}
-	.carousel .slick-list, .carousel .slick-track{
-	height: 20vh;
-	}
-	.carousel_prev img, .carousel_next img{
-		display: none;
-	}
-	
 	section .carousel{
-		height: 20vh;
+		display: none;
 	}
 	#footer_left{
 		flex: 1;
 		display: flex;
 		flex-direction: column;
-	
-
 	}
 	#footer_center{
 		flex: 0.5;
