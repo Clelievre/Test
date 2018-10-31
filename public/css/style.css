@@ -35,7 +35,9 @@ body{
 	
 	
 }
-
+#back_home_mobile{
+	visibility: hidden;
+}
 /*==============================================
 					HEADER
 ===============================================*/
@@ -610,7 +612,7 @@ footer{
 	.slick-dots {
 		visibility: hidden;
 	}
-	#back_home img{
+	#back_home_mobile img{
 		width: 7vw;
 		float: left;
 		opacity: 0.5;
