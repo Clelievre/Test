@@ -535,7 +535,7 @@ footer{
 		padding: 0px;
 		
 
-		background: #ededed;
+		background: /*#ededed */ green;
 		list-style-type: none;
 		-webkit-font-smoothing: antialiased;
 		/* to stop flickering of text in safari */
