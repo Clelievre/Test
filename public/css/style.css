@@ -31,6 +31,7 @@ body{
 	
 }
 .aside_banner{
+	visibility: visible;
 	flex:0.5;
 	background-color: #aee8fe; 
 	margin: 0;
