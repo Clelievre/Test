@@ -38,7 +38,7 @@ body{
 	
 }
 #back_home_mobile{
-	display: none;
+	visibility: hidden;
 }
 /*==============================================
 					HEADER
@@ -611,6 +611,7 @@ footer{
 		visibility: hidden;
 	}
 	#back_home_mobile img{
+		visibility: visible;
 		width: 9vw;
 		opacity: 0.5;
 	}
