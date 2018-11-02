@@ -31,7 +31,6 @@ body{
 	
 }
 .aside_banner, #wrapper{
-	visibility: visible;
 	flex:0.5;
 	background-color: #aee8fe; 
 	margin: 0;
@@ -39,7 +38,7 @@ body{
 	
 }
 #back_home_mobile{
-	visibility: hidden;
+	display: none;
 }
 /*==============================================
 					HEADER
@@ -612,7 +611,6 @@ footer{
 		visibility: hidden;
 	}
 	#back_home_mobile img{
-		visibility: visible;
 		width: 9vw;
 		opacity: 0.5;
 	}
@@ -620,7 +618,7 @@ footer{
 		display: none;
 	}
 	.aside_banner, #wrapper{
-		visibility: hidden;
+		display: none;
 	}
 	section .carousel{
 		display: none;
