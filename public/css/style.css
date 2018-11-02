@@ -31,6 +31,7 @@ body{
 	
 }
 .aside_banner{
+	visibility: visible;
 	flex:0.5;
 	background-color: #aee8fe; 
 	margin: 0;
@@ -613,7 +614,7 @@ footer{
 	#back_home_mobile img{
 		visibility: visible;
 		width: 9vw;
-		opacity: 0.7;
+		opacity: 0.5;
 	}
 	.result_button{
 		display: none;
