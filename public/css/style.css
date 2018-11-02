@@ -30,7 +30,7 @@ body{
 	padding: 0;
 	
 }
-.aside_banner, #wrapper{
+.aside_banner{
 	flex:0.5;
 	background-color: #aee8fe; 
 	margin: 0;
