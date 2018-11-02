@@ -617,7 +617,9 @@ footer{
 	.result_button{
 		display: none;
 	}
-	
+	.aside_banner, #wrapper{
+		visibility: hidden;
+	}
 	section .carousel{
 		display: none;
 	}
