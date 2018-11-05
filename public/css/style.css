@@ -16,8 +16,6 @@
 }*/
 body{
 	margin: 0px;
-	height: 80%;
-	width: 100%;
 	overflow-y: auto;
 	overflow-x: hidden;
 }
