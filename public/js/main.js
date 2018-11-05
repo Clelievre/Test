@@ -9,7 +9,7 @@ $(document).ready(function(){
     	`,
     	nextArrow: `
     		<button type="button" class="carousel_next"><img src="public/images/next_arrow.png"></button>
-    	`
+    	`,
   		});	
   		$( window ).scroll(function() {
     	   $( "#back_home" ).css("position", "relative");
