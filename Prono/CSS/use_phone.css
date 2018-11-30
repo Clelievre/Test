@@ -1,0 +1,75 @@
+@media screen and (max-width: 800px) {
+	img, table, td,  textarea, input, {
+    max-width: 100%;
+	}
+	body{
+	margin: 0px;
+	}
+	#page {
+		font-size: 0.8em;
+		padding: 0px;
+	}
+	#liste_menu {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		flex: 0.5;
+	}
+	form, .form, #resultat{
+	width:100%;
+	}
+	.hamb {
+		display: block;
+	}
+	#menu:hover #liste_menu, #menu:active #liste_menu {
+		display: flex;
+	}
+	
+	#liste_menu {
+		display: none;
+	}
+	.bouton {
+		width: 15em;
+	}
+	#logo img {
+		width: 10vw;
+	}
+	.scoreResultat, .equipeResultat {
+		font-size: 0.8em;
+	}
+	.saisi_equipe{
+	width: 20vw;
+	font-size: 0.8em;
+	}
+	.score_equipe{
+	width: 14vw;
+	font-size: 0.8em;
+	}
+	.titreEquipe{
+	width: 5em;
+	}
+	.prono_equipe, .score{
+	margin:0px;
+	width:100%;
+	}
+	#user{
+		padding:0px;
+	}
+	.titre{
+		width:15vw;
+	}
+	#logo {
+	flex:0.5;
+	}
+	.paragrapheEquipe{
+	flex-direction: column;
+	margin:0;
+	}
+	.equipeResultat, .scoreResultat{
+		margin: 2vw;
+		
+	}
+	#listeDesJoueurs{
+	flex-direction: column;
+	}
+}
